@@ -9,7 +9,7 @@ class jenkins {
 
     file { '/etc/default/jenkins':
         require => Package["jenkins"],
-        source  => "${settings::modulepath}/etc/default/jenkins",
+        source  => "${settings::modulepath}/jenkins/etc/default/jenkins",
         notify  => Service["jenkins"]
     }
 
@@ -19,7 +19,7 @@ class jenkins {
     }
 
     file { '/etc/apt/preferences.d/jenkins':
-        source  => "${settings::modulepath}/etc/apt/preferences.d/jenkins",
+        source  => "${settings::modulepath}/jenkins/etc/apt/preferences.d/jenkins",
         require => Exec['create_jenkins_sources_list'],
     }
 
