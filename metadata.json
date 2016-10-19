@@ -1,0 +1,20 @@
+{
+    "name": "istvan-jenkins",
+    "version": "0.0.1",
+    "author": "István M. Antal",
+    "license": "MIT",
+    "summary": "A module for installing Jenkins",
+    "source": "https://github.com/istvan-antal/istvan-jenkins",
+    "project_page": "https://github.com/istvan-antal/istvan-jenkins",
+    "issues_url": "https://github.com/istvan-antal/istvan-jenkins/issues",
+    "tags": ["jenkins", "ci"],
+    "operatingsystem_support": [{
+        "operatingsystem": "Ubuntu",
+    }, {
+        "operatingsystem": "Debian",
+    }, {
+        "operatingsystem": "Raspbian",
+    }],
+    "dependencies": [],
+    "data_provider": "hiera"
+}
