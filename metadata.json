@@ -9,11 +9,11 @@
     "issues_url": "https://github.com/istvan-antal/istvan-jenkins/issues",
     "tags": ["jenkins", "ci"],
     "operatingsystem_support": [{
-        "operatingsystem": "Ubuntu",
+        "operatingsystem": "Ubuntu"
     }, {
-        "operatingsystem": "Debian",
+        "operatingsystem": "Debian"
     }, {
-        "operatingsystem": "Raspbian",
+        "operatingsystem": "Raspbian"
     }],
     "dependencies": [],
     "data_provider": "hiera"
