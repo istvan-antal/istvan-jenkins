@@ -1,0 +1,3 @@
+Package: jenkins
+Pin: origin pkg.jenkins.io
+Pin-Priority: 700

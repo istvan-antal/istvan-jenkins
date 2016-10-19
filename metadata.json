@@ -1,6 +1,6 @@
 {
     "name": "istvan-jenkins",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "István M. Antal",
     "license": "MIT",
     "summary": "A module for installing Jenkins",
